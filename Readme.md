@@ -7,29 +7,29 @@
        $ cd project 
        $ pipenv install requests
 
-        ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-14-50-41-image.png)
+  ![Aliados](img/1.PNG)
 
 2. Esto generará dos archivos 
    
-   ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-14-57-00-image.png)
+   ![Aliados](img/2.PNG)
    
    el archivo pipfile mostrara los paquetes que vayamos instalando (django, python 3.10. En este caso)
    
-   ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-15-01-16-image.png)
+   ![aliados](img/3.PNG)
 
 <span style="color: cyan">Para generar el proyecto:</span>
 
 1.     $ django-admin startproject nameProject
 
-        ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-15-05-42-image.png)
+        ![aliados](img/4.PNG)
 
-        Genera un archivo manage.py (Para ver el arbol de directorios los visializamos en             en el VSC)
+        Genera un archivo manage.py (Para ver el arbol de directorios los visializamos en en el VSC)
 
-        ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-15-26-38-image.png)
+        ![aliados](img/5.PNG)
 
 2. Configurar zona horaria según su ubicaicón [List of tz database time zones - Wikipedia ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). En el archivo settings.py
    
-   ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-04-15-image.png)
+   ![aliados](img/6.PNG)
 
 3. Correr el proyecto (detener el proyecto Ctrl + C)
    
@@ -39,21 +39,21 @@
    
        python manage.py migrate
 
-        ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-10-41-image.png)
+        ![aliados](img/7.PNG)
 
 5.     Vamos a una nueva pestaña de nuestro navegador, y colocamos *localhost:8000*
    
-   ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-17-36-image.png)
+   ![aliados](img/8.PNG)
 
 6. Administrador
    
-   ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-18-57-image.png)
+   ![aliados](img/9.PNG)
 
 7. Crear un usuario
    
        $ winpty python manage.py createsuperuser
 
-        ![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-23-16-image.png)
+        ![aliados](img/10.PNG)
 
     Coloque antes el winpty en caso de recibir este mensaje al crear el usuario con la     siguiente sentencia:
 
@@ -62,14 +62,14 @@
     
     
 
-8. Volver a correr el servidor y colocamos nuestros datos del usuario que acabamos de crear y entraremos al adm![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-26-47-image.png)
+8. Volver a correr el servidor y colocamos nuestros datos del usuario que acabamos de crear y entraremos al adm
+![aliados](img/11.PNG)
 
 <span style="color: cyan">Crear aplicación</span>
 
     $ python manage.py startapp app1
 
-![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-20-16-31-41-image.png)
-
+![aliados](img/12.PNG)
 <span style="color: cyan">Generar tres app</span>
 
-![](C:\Users\diana\AppData\Roaming\marktext\images\2022-03-21-12-19-59-image.png)
+![aliados](img/13.PNG)
